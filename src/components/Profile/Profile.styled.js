@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const UserCard = styled.div`
   width: 350px;
-  margin-top: 50px;
   border-radius: 6px;
   box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
   text-align: center;
@@ -17,6 +16,7 @@ export const UserInfo = styled.div`
   img {
     width: 100px;
     height: 100px;
+    border: 1px solid #e2e8ed;
     border-radius: 50%;
     margin-bottom: 40px;
   }

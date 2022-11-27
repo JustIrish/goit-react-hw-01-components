@@ -15,7 +15,7 @@ export const Profile = ({
   username,
   tag,
   location,
-  avatar = 'https://www.google.com/url?sa=i&url=http%3A%2F%2Fallpetrischule-spb.org%2Findex.php%3Ftitle%3D%25D0%25A4%25D0%25B0%25D0%25B9%25D0%25BB%3AAvatar-man.jpg&psig=AOvVaw0Obi5x6LTRWYywSUYs_5VZ&ust=1669574818557000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOCktILBzPsCFQAAAAAdAAAAABAS',
+  avatar,
   stats: { followers, views, likes },
 }) => {
   return (

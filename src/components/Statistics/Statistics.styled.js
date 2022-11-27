@@ -29,12 +29,12 @@ export const StatsData = styled.li`
 `;
 
 export const DataName = styled.span`
-  color: #ffffff;
+  color: #e0dbe7;
   margin-bottom: 5px;
 `;
 
 export const DataValue = styled.span`
-  color: #ffffff;
+  color: #e0dbe7;
   font-size: 22px;
 `;
 

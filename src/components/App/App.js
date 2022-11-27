@@ -1,7 +1,10 @@
 import { Profile } from '../Profile/Profile';
-import user from '../user.json';
 import { GlobalStyle } from '../GlobalStyles';
 import { AppWrapper } from './App.styled';
+import { Statistics } from 'components/Statistics/Statistics';
+
+import user from '../user.json';
+import data from '../data.json';
 
 export const App = () => {
   return (
@@ -13,6 +16,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <Statistics title="Upload stats" stats={data} />
       <GlobalStyle />
     </AppWrapper>
   );

@@ -1,13 +1,22 @@
 import styled from 'styled-components';
 
 export const UserCard = styled.div`
+  width: 350px;
+  margin-top: 50px;
+  border-radius: 6px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
   text-align: center;
 `;
 
 export const UserInfo = styled.div`
-  padding: 40px 60px;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   img {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     margin-bottom: 40px;
   }
@@ -16,12 +25,12 @@ export const UserInfo = styled.div`
 export const UserName = styled.p`
   font-size: 25px;
   font-weight: 500;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 `;
 
 export const UserTeg = styled.p`
   color: #8c8c8c;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 `;
 
 export const UserLocation = styled.p`

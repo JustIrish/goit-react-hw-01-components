@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const AppWrapper = styled.div`
+export const Layout = styled.div`
   display: flex;
   padding: 50px 0px;
   flex-direction: column;

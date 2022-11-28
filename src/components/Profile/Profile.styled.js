@@ -14,8 +14,8 @@ export const UserInfo = styled.div`
   align-items: center;
 
   img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 1px solid #e2e8ed;
     border-radius: 50%;
     margin-bottom: 40px;
